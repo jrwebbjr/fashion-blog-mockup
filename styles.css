@@ -4,7 +4,6 @@
 body {
     min-height: 100%vh;
     max-width: 1000px;
-    font-family: sans-serif;
     margin: auto;
 }
 
@@ -27,7 +26,14 @@ body {
 }
 
 .ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.li {
+    color: lightgray;
 }
 
 .main {
@@ -37,6 +43,17 @@ body {
     padding-right: 2rem;
 }
 
+.article {
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+}
+p::first-letter {
+    font-size: 300%;
+    color: lightgray;
+    padding: 6px 3px;
+    margin-right: 6px;
+    float: left;
+}
 .footer {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -44,10 +61,11 @@ body {
     padding-right: 2rem;
 }
 .button {
+    float: right;
     background-color: white;
+    font-weight: bold;
     border: none;
     color: tomato;
-    align-items: ;
 }
 
 .tomato {
@@ -58,3 +76,6 @@ body {
     width: 100%;
 }
 
+.copywrite {
+    color: lightgray;
+}
