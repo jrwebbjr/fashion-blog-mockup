@@ -1,10 +1,11 @@
 :root {
-    font-family: sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
 }
 body {
     min-height: 100%vh;
     max-width: 1000px;
     margin: auto;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 .border {
@@ -17,7 +18,9 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
 }
-
+.header-title {
+    font-size: 90px;
+}
 .nav {
     padding: 0%;
     list-style-type: none;
@@ -47,6 +50,15 @@ body {
     margin-bottom: 4rem;
     padding-bottom: 2rem;
 }
+
+.blog-date {
+    font-size: 40px;
+}
+
+.blog-title {
+    font-size: xx-large;
+}
+
 p::first-letter {
     font-size: 300%;
     color: lightgray;

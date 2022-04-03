@@ -1,31 +1,6 @@
-<!DOCTYPE html>
-<html lang="en" class="border">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
-      </style>
-    <title>Sartre's List</title>
-</head>
-<body class="body">
-    <header class="header">
-        <h1 class="header-title tomato">Sartre's List</h1>
-        <h1>Better-Dressed People</h1>
-        <nav class="nav" aria-label="Main Navigation" role="navigation">
-            <ul class="header ul">
-              <li><a class="li" href="...">Women's</a></li>
-              <li><a class="li" href="...">Men's</a></li>
-              <li><a class="li" href="...">On the Street</a></li>
-              <li><a class="li" href="...">The Catwalk</a></li>
-              <li><a class="li" href="...">AdWatch</a></li>
-              <li><a class="li" href="...">About</a></li>
-            </ul>
-          </nav>
-    </header>
-    <main class="main">
+export default function BlogPost(){
+    return (
+        <div class="main">
         <section>
             <article>
                 <time class="blog-date copywrite" datetime="11-12-2020">11/12/20</time>
@@ -48,21 +23,6 @@
           </section>
           <br/>
           <hr/>
-    </main>
-    <footer class="footer">
-        <nav aria-label="Main Navigation" role="navigation">
-            <ul class="ul">
-              <li><a class="tomato" href="...">Women's</a></li>
-              <li><a class="tomato" href="...">Men's</a></li>
-              <li><a class="tomato" href="...">On the Street</a></li>
-              <li><a class="tomato" href="...">The Catwalk</a></li>
-              <li><a class="tomato" href="...">AdWatch</a></li>
-              <li><a class="tomato" href="...">About</a></li>
-            </ul>
-          </nav>
-          <div class="copywrite">
-          &copy; 2013 Valet Industries, Inc
-          </div>  
-    </footer>
-</body>
-</html>
+        </div>
+    )
+}
